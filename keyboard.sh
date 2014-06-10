@@ -1,6 +1,8 @@
 #! /bin/bash
 # THIS FILE SHOULD BE IN /etc/keyboard.sh
-address="00:1F:20:4D:7D:7E"
+# Make sure the XX:XX:XX:XX:XX:XX part is filled with the correct address.
+# You can find out about this by running `sudo hidd --show`
+address="XX:XX:XX:XX:XX:XX"
 # Simple forloop counter which tries to connect for a minute
 # It should connect within the first 10 seconds.
 COUNTER=0
