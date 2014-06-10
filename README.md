@@ -19,3 +19,5 @@ If you want to connect manually then just;
     sudo /etc/keyboard.sh
 
 Thats it. Next time you reboot you should be able to connect the keyboard if the keyboard is in pairing mode.
+
+This script was tested on ubuntu x64 14.04
