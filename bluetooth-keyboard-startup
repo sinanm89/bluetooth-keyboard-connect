@@ -1,0 +1,5 @@
+#!/bin/bash
+# THIS FILE SHOULD BE IN /etc/init.d/keyboard
+/etc/bluetooth-keyboard-pair/keyboard.sh &
+
+exit 0

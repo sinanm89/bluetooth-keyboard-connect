@@ -1,5 +1,0 @@
-#!/bin/sh
-# THIS FILE SHOULD BE IN /etc/init.d/keyboard
-/etc/keyboard.sh &
-
-exit 0
