@@ -1,5 +1,5 @@
 #! /bin/bash
-address=$(cat /etc/bluetooth-keyboard-pairing/address)
+address=$(cat /etc/bluetooth-keyboard-pair/address)
 while ( sleep 1 )
 do
     connected=$(sudo hidd --show)
